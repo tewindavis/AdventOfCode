@@ -1,3 +1,5 @@
+
+
 class part1:
     def __init__(self):
         self.turns = []
@@ -42,7 +44,6 @@ class part2(part1):
         pos = 50
 
         for dir, mag in zip(self.turn_dir, self.turn_magnitude):
-
             match dir:
                 case "L":
                     if (pos - mag) <= 0:
